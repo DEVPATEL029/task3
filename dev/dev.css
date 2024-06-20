@@ -1,0 +1,2206 @@
+.image-1-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    display: none;
+  }
+  .g10-icon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    min-height: 50px;
+    z-index: 1;
+  }
+  .flex {
+    color: var(--color-gray-100);
+  }
+  .farmflex {
+    text-decoration: none;
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+    z-index: 1;
+    color: inherit;
+  }
+  .farm-flex-logo,
+  .farm-investment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .farm-flex-logo {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .farm-investment {
+    width: 220px;
+    flex-direction: row;
+    gap: var(--gap-8xs);
+  }
+  .home {
+    margin-bottom: -1px;
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 38.5px;
+    flex-shrink: 0;
+    
+    z-index: 1;
+  }
+  .home-button {
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .home-highlight {
+    width: 40px;
+    height: 1px;
+    position: relative;
+    background-color: var(--color-midnightblue);
+    flex-shrink: 0;
+ 
+    z-index: 2;
+  }
+  .home-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--color-midnightblue);
+  }
+  .blog,
+  .contact,
+  .product,
+  .team {
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 54px;
+    z-index: 1;
+  }
+  .blog,
+  .contact,
+  .team {
+    min-width: 38px;
+  }
+  .blog,
+  .contact {
+    min-width: 30px;
+  }
+  .contact {
+    min-width: 53px;
+  }
+  .contact-info,
+  .contact-links {
+    display: flex;
+    align-items: flex-start;
+  }
+  .contact-links {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .contact-info {
+    width: 306px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 var(--padding-3xs) var(--padding-sm) 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-300);
+  }
+  .sign-up-button-child {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-midnightblue);
+    display: none;
+  }
+  .icons8-user-48-1 {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    object-fit: cover;
+    min-height: 18px;
+    z-index: 2;
+  }
+  .sign-up1 {
+    text-decoration: none;
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    font-family: var(--font-open-sans);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 44px;
+    z-index: 2;
+  }
+  .sign-up,
+  .sign-up-button {
+    display: flex;
+    align-items: flex-start;
+  }
+  .sign-up-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-7xs) var(--padding-sm);
+    background-color: var(--color-midnightblue);
+    border-radius: var(--br-81xl);
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .rectangle-parent:hover,
+  .sign-up-button:hover {
+    background-color: var(--color-darkslateblue);
+  }
+  .sign-up {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-5xs);
+  }
+  .invest-options,
+  .investment {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .invest-options {
+    margin: 0;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-16xl);
+    color: var(--color-midnightblue);
+    font-family: var(--font-open-sans);
+  }
+  .investment {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-54xl);
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+  }
+  .discover-a-novel {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+  .agricultural-investment {
+    margin: 0;
+  }
+  .discover-a-novel-container {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .farm-flex-provides,
+  .stakeholders-withconvenient-on {
+    margin-block-start: 0;
+    margin-block-end: 3px;
+  }
+  .educational-resources {
+    margin: 0;
+  }
+  .farm-flex-provides-container {
+    position: relative;
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: var(--color-gray-300);
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .discover-a-novel-approach-to-a-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .frame-child {
+    height: 35px;
+    width: 120px;
+    position: relative;
+    box-shadow: 0 4px 8px 1px rgba(37, 44, 138, 0.3);
+    border-radius: var(--br-81xl);
+    background-color: var(--color-midnightblue);
+    display: none;
+  }
+  .invest-quickly {
+    position: relative;
+    font-size: var(--font-size-xs);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--font-open-sans);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 82px;
+    z-index: 2;
+  }
+  .invest-description,
+  .quick-invest,
+  .rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-parent {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) var(--padding-lgi) var(--padding-3xs);
+    background-color: var(--color-midnightblue);
+    box-shadow: 0 4px 8px 1px rgba(37, 44, 138, 0.3);
+    border-radius: var(--br-81xl);
+    flex-direction: row;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .invest-description,
+  .quick-invest {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .invest-description {
+    align-self: stretch;
+    gap: var(--gap-11xl);
+  }
+  .quick-invest {
+    flex: 1;
+    padding: 16px 0 0;
+    box-sizing: border-box;
+    min-width: 272px;
+  }
+  .invest-image-icon {
+    height: 400px;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-81xl);
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    min-width: 265px;
+    z-index: 1;
+  }
+  .approach,
+  .investment-approach {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .investment-approach {
+    flex: 1;
+    flex-wrap: wrap;
+    gap: var(--gap-9xl);
+  }
+  .approach {
+    align-self: stretch;
+    padding: 0 var(--padding-54xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-gray-100);
+    font-family: var(--font-open-sans);
+  }
+  .emerging-chances {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .we-stand-as {
+    margin-block-start: 0;
+    margin-block-end: 3px;
+  }
+  .you-to-contribute {
+    margin: 0;
+  }
+  .we-stand-as-container {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-gray-300);
+    z-index: 1;
+  }
+  .chances,
+  .convenience {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .convenience {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .chances {
+    flex-direction: row;
+    padding: 0 var(--padding-54xl);
+    box-sizing: border-box;
+  }
+  .frame-item {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .connection-options-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-139xl) 0 0;
+  }
+  .double-farmer-icon-child {
+    width: 349px;
+    height: 347px;
+    position: relative;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.12);
+    border-radius: var(--br-31xl);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-midnightblue);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .icons8-farmer-60-1,
+  .icons8-farmer-64-1 {
+    height: 56px;
+    width: 55px;
+    position: relative;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .icons8-farmer-60-1 {
+    width: 42px;
+    height: 42px;
+  }
+  .farmer-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 3px;
+  }
+  .first-farmer-icon,
+  .second-farmer-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .second-farmer-icon {
+    align-items: flex-end;
+    gap: 1px;
+  }
+  .first-farmer-icon {
+    align-items: flex-start;
+    padding: 0 var(--padding-52xl);
+  }
+  .establish-a-connection {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+  .our-agricultural-producers {
+    margin: 0;
+  }
+  .establish-a-connection-container,
+  .nemo-enim-ipsam {
+    position: relative;
+    font-weight: 600;
+    z-index: 2;
+  }
+  .nemo-enim-ipsam {
+    width: 265px;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+    display: inline-block;
+  }
+  .connection-options,
+  .double-farmer-icon {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .double-farmer-icon {
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.12);
+    border-radius: var(--br-31xl);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-midnightblue);
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: var(--padding-39xl) var(--padding-xl) var(--padding-39xl)
+      var(--padding-23xl);
+    min-width: 227px;
+    z-index: 1;
+  }
+  .connection-options {
+    flex-direction: row;
+    min-width: 259px;
+  }
+  .impact-option-child {
+    width: 348px;
+    height: 347px;
+    position: relative;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.12);
+    border-radius: var(--br-31xl);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-midnightblue);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .icons8-financial-growth-64-1 {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .impact-icon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-12xs) 0 0;
+  }
+  .investment-with-a {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+  .on-social-impact {
+    margin: 0;
+  }
+  .investment-with-a-container {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    z-index: 2;
+  }
+  .at-vero-eos,
+  .iusto-odio-dignissimos,
+  .qui-blanditiis-praesentium {
+    margin-block-start: 0;
+    margin-block-end: 3px;
+  }
+  .voluptatum-deleniti-atque {
+    margin: 0;
+  }
+  .at-vero-eos-container {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-gray-200);
+    z-index: 2;
+  }
+  .impact-option {
+    flex: 1;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.12);
+    border-radius: var(--br-31xl);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-midnightblue);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 59px 63px var(--padding-30xl);
+    gap: var(--gap-xl);
+    min-width: 226px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frame-inner {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .production-connection,
+  .social-impact,
+  .social-impact-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .social-impact-inner {
+    flex-direction: column;
+    padding: var(--padding-139xl) 0 0;
+  }
+  .production-connection,
+  .social-impact {
+    flex: 1;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .social-impact {
+    gap: var(--gap-xl);
+    min-width: 259px;
+  }
+  .production-connection {
+    flex-wrap: wrap;
+    gap: var(--gap-38xl);
+  }
+  .connection,
+  .invest-background {
+    align-self: stretch;
+    max-width: 100%;
+  }
+  .connection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-54xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-100);
+    font-family: var(--font-open-sans);
+  }
+  .invest-background {
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gainsboro-200);
+    z-index: 1;
+  }
+  .invest-background-wrapper {
+    width: 985px;
+    height: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-54xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .invest-at-your {
+    margin: 0;
+    width: 389px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .autem-vel-eum {
+    margin-block-start: 0;
+    margin-block-end: 3px;
+  }
+  .molestiae-consequatur {
+    margin: 0;
+  }
+  .autem-vel-eum-container {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-gray-300);
+    z-index: 1;
+  }
+  .chances1,
+  .invest-at-your-convenience-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .invest-at-your-convenience-parent {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .chances1 {
+    flex-direction: row;
+    padding: 0 var(--padding-54xl);
+    box-sizing: border-box;
+  }
+  .profit-highlight-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-31xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .quick-profit {
+    margin-block-start: 0;
+    margin-block-end: 2px;
+  }
+  .investment1 {
+    margin: 0;
+  }
+  .quick-profit-investment-container {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 2;
+  }
+  .invest-in-farm {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+  .for-harvest-in {
+    margin: 0;
+  }
+  .invest-in-farm-container {
+    position: relative;
+    font-size: var(--font-size-sm);
+    text-transform: capitalize;
+    z-index: 2;
+  }
+  .browse-button-child {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-white);
+    display: none;
+  }
+  .browse-farm {
+    position: relative;
+    font-size: var(--font-size-xs);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--font-open-sans);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 77px;
+    z-index: 3;
+  }
+  .browse-button,
+  .browse-option,
+  .profit-option {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .browse-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-6xs) 11px;
+    background-color: var(--color-white);
+    border-radius: var(--br-81xl);
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .browse-button:hover,
+  .rectangle-group:hover {
+    background-color: var(--color-gainsboro-100);
+  }
+  .browse-option,
+  .profit-option {
+    padding: 0 var(--padding-12xs);
+  }
+  .profit-option {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-35xl) var(--padding-xl) var(--padding-35xl)
+      var(--padding-11xl);
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-xl);
+    min-width: 231px;
+    max-width: 100%;
+  }
+  .profit-option-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-31xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .long-term-growth {
+    margin-block-start: 0;
+    margin-block-end: 2px;
+  }
+  .investment2 {
+    margin: 0;
+  }
+  .long-term-growth-investment-container {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 2;
+  }
+  .consider-farms-that {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+  .term-investment-program {
+    margin: 0;
+  }
+  .consider-farms-that-container {
+    position: relative;
+    font-size: var(--font-size-sm);
+    z-index: 2;
+  }
+  .rectangle-div {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-white);
+    display: none;
+  }
+  .learn-more {
+    text-decoration: none;
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-open-sans);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 66px;
+    z-index: 1;
+  }
+  .profit-option-inner,
+  .profit-option1,
+  .rectangle-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-group {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-6xs) 17px;
+    background-color: var(--color-white);
+    border-radius: var(--br-81xl);
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .profit-option-inner,
+  .profit-option1 {
+    padding: 0 var(--padding-7xs);
+  }
+  .profit-option1 {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-35xl) var(--padding-xl) var(--padding-35xl)
+      var(--padding-11xl);
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-xl);
+    min-width: 231px;
+    max-width: 100%;
+  }
+  .investment-options,
+  .profit-growth {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .investment-options {
+    width: 769px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: var(--gap-38xl);
+  }
+  .profit-growth {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-open-sans);
+  }
+  .supply-chain-child {
+    width: 726px;
+    height: 400px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-midnightblue);
+    display: none;
+    max-width: 100%;
+  }
+  .explanation-of-its {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .functionality-description {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-30xl) 0 47px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .choose-from-various,
+  .endeavors-supported-not {
+    margin-block-start: 0;
+    margin-block-end: 3px;
+  }
+  .generational-expertise-innova {
+    margin: 0;
+  }
+  .choose-from-various-container {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    z-index: 2;
+  }
+  .functionality-description-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .supply-chain-inner {
+    width: 558px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-6xs) 0 var(--padding-5xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .step-icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .step-separators {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 17px;
+    z-index: 3;
+  }
+  .option-steps {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    color: #000;
+  }
+  .option-steps-child {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    background-color: var(--color-gainsboro-200);
+    z-index: 3;
+  }
+  .option-steps1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-5xl);
+    box-sizing: border-box;
+    min-width: 62px;
+  }
+  .option-steps-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 0 solid var(--color-white);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .div {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 17px;
+    z-index: 3;
+  }
+  .option-steps2 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+  }
+  .option-steps-inner {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    background-color: var(--color-gainsboro-200);
+    z-index: 3;
+  }
+  .option-steps3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-5xl);
+    box-sizing: border-box;
+    min-width: 62px;
+  }
+  .ellipse-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 0 solid var(--color-white);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .div1 {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 17px;
+    z-index: 3;
+  }
+  .option-steps4 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+  }
+  .option-steps-child1 {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    background-color: var(--color-gainsboro-200);
+    z-index: 3;
+  }
+  .option-steps5 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-5xl);
+    box-sizing: border-box;
+    min-width: 62px;
+  }
+  .option-steps-child2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 0 solid var(--color-white);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .div2 {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 17px;
+    z-index: 3;
+  }
+  .option-steps6 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+  }
+  .farm-share,
+  .options-illustration {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .options-illustration {
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    row-gap: 20px;
+  }
+  .farm-share {
+    width: 558px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-16xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-sm);
+  }
+  .and-fill-out,
+  .choose-your-farmshare {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+  .reservation-form {
+    margin: 0;
+  }
+  .choose-your-farmshare-container {
+    width: 215px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .distinctio-name-libero,
+  .et-harum-quidem,
+  .nobis-est-eligendi {
+    margin-block-start: 0;
+    margin-block-end: 3px;
+  }
+  .quo-minus-id {
+    margin: 0;
+  }
+  .et-harum-quidem-container {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .reservation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    font-size: var(--font-size-lg);
+  }
+  .functionality,
+  .supply-chain {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .supply-chain {
+    width: 726px;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-midnightblue);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-23xl) var(--padding-xl);
+    gap: var(--gap-11xl);
+    z-index: 1;
+  }
+  .functionality {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-white);
+    font-family: var(--font-open-sans);
+  }
+  .investors-seem-to {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+  .discussing-farmflex {
+    margin: 0;
+  }
+  .investors-seem-to-container {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .discussion {
+    width: 453px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-54xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 10px 5px rgba(37, 44, 138, 0.2);
+    border-radius: var(--br-31xl);
+    background-color: var(--color-midnightblue);
+    width: 100%;
+    height: 100%;
+  }
+  .sed-ut-perspiciatis {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+  .laudantium-totam-rem {
+    margin: 0;
+  }
+  .sed-ut-perspiciatis-container {
+    position: absolute;
+    top: 29.1px;
+    left: 0;
+    font-weight: 600;
+    display: inline-block;
+    width: 149px;
+    height: 63px;
+  }
+  .boost-your-business {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-xs);
+    display: inline-block;
+    width: 117px;
+    height: 15px;
+  }
+  .sed-ut-perspiciatis-unde-omnis-parent {
+    position: absolute;
+    top: 113px;
+    left: 51px;
+    width: 149px;
+    height: 92px;
+  }
+  .icons8-staircase-64-1 {
+    position: absolute;
+    top: 23px;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .rectangle-container {
+    width: 250px;
+    height: 249px;
+    position: relative;
+    display: none;
+    font-size: 10px;
+    color: var(--color-white);
+    font-family: var(--font-libre-franklin);
+  }
+  .investor-quotes-child {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .investor-quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-85xl) 0 0;
+  }
+  .investor-quotes-item {
+    width: 350px;
+    height: 238.7px;
+    position: relative;
+    box-shadow: 0 4px 10px 3px rgba(37, 44, 138, 0.3);
+    border-radius: var(--br-11xl);
+    background-color: var(--color-midnightblue);
+    display: none;
+    max-width: 100%;
+  }
+  .icon-pair {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    transform: scale(1.24);
+  }
+  .wrapper-icon-pair {
+    width: 50px;
+    height: 54px;
+    position: relative;
+    border-radius: 50%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile-icons {
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+  }
+  .javier-gomez {
+    width: 135px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .specialist,
+  .telecommunications {
+    margin: 0;
+  }
+  .telecommunications-specialist {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    z-index: 2;
+  }
+  .investor-info,
+  .profile-icons-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .investor-info {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .profile-icons-parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 17px;
+  }
+  .quis-autem-vel,
+  .reprehenderit-qui-in {
+    margin-block-start: 0;
+    margin-block-end: 3px;
+  }
+  .velit-esse-quam {
+    margin: 0;
+  }
+  .quis-autem-vel-container {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    z-index: 2;
+  }
+  .investor-quotes-inner,
+  .investor-quotes1 {
+    box-shadow: 0 4px 10px 3px rgba(37, 44, 138, 0.3);
+    border-radius: var(--br-11xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .investor-quotes1 {
+    flex: 0.8949;
+    background-color: var(--color-midnightblue);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 38px 60px 38.7px;
+    gap: var(--gap-xl);
+    min-width: 227px;
+    z-index: 1;
+  }
+  .investor-quotes-inner {
+    width: 350px;
+    height: 238.7px;
+    position: relative;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-midnightblue);
+    display: none;
+  }
+  .ellipse-icon {
+    width: 50px;
+    height: 54px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .ellipse-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+  }
+  .sergio-morales {
+    width: 149px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .manager-of-agrogofund {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    z-index: 2;
+  }
+  .frame-parent,
+  .sergio-morales-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sergio-morales-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .frame-parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 17.5px;
+  }
+  .at-vero-eos1,
+  .odio-dignissimos-ducimus {
+    margin-block-start: 0;
+    margin-block-end: 3px;
+  }
+  .blanditiis-praesentium {
+    margin: 0;
+  }
+  .at-vero-eos-container1 {
+    position: relative;
+    font-weight: 600;
+    z-index: 2;
+  }
+  .at-vero-eos-et-accusamus-et-iu-wrapper,
+  .investor-quotes2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .at-vero-eos-et-accusamus-et-iu-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-smi) 0 var(--padding-sm);
+    font-size: var(--font-size-sm);
+  }
+  .investor-quotes2 {
+    flex: 1;
+    box-shadow: 0 4px 10px 3px rgba(37, 44, 138, 0.3);
+    border-radius: var(--br-11xl);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-midnightblue);
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: var(--padding-17xl) 45px 37px var(--padding-27xl);
+    gap: var(--gap-xl);
+    min-width: 227px;
+    max-width: 100%;
+    z-index: 1;
+    color: var(--color-midnightblue);
+  }
+  .group-icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .investor-quotes3,
+  .testimonial {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .investor-quotes3 {
+    flex-direction: column;
+    padding: var(--padding-85xl) 0 0;
+  }
+  .testimonial {
+    flex: 1;
+    flex-direction: row;
+    gap: 31.3px;
+    max-width: 100%;
+  }
+  .frame-child1,
+  .investors {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .investors {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-54xl);
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+    font-family: var(--font-open-sans);
+  }
+  .frame-child1 {
+    width: 701px;
+    height: 204px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-midnightblue);
+    display: none;
+  }
+  .the-future-of {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .embracing-innovation-in {
+    margin-block-start: 0;
+    margin-block-end: 3px;
+  }
+  .farm-investing-for {
+    margin: 0;
+  }
+  .embracing-innovation-in-container {
+    width: 422px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    z-index: 1;
+  }
+  .future-title,
+  .innovation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .innovation {
+    flex-direction: row;
+    padding: 0 70px 0 var(--padding-52xl);
+    text-align: center;
+    font-size: var(--font-size-sm);
+  }
+  .future-title {
+    flex-direction: column;
+    gap: var(--gap-mini);
+  }
+  .invest-now-button-child {
+    height: 35px;
+    width: 121px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-midnightblue);
+    display: none;
+  }
+  .invest-now {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    font-family: var(--font-open-sans);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+    min-width: 76px;
+    z-index: 2;
+  }
+  .invest-now-button,
+  .invest-now-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .invest-now-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) 22px;
+    background-color: var(--color-midnightblue);
+    border-radius: var(--br-81xl);
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .group-button:hover,
+  .invest-now-button:hover {
+    background-color: var(--color-darkslateblue);
+  }
+  .invest-now-button-wrapper {
+    align-self: stretch;
+    justify-content: center;
+  }
+  .farm-future,
+  .group-div {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .group-div {
+    width: 701px;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-midnightblue);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-xl) 68px var(--padding-2xl);
+    gap: var(--gap-11xl);
+    z-index: 1;
+  }
+  .farm-future {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-midnightblue);
+    font-family: var(--font-open-sans);
+  }
+  .frame-child2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-midnightblue);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .icons8-copyright-50-1 {
+    position: absolute;
+    top: 342px;
+    left: 689px;
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    z-index: 1;
+    padding-left: 510px;
+  }
+  .farmflex1,
+  .g10-icon1 {
+    position: relative;
+    z-index: 1;
+  }
+  .g10-icon1 {
+    height: 50px;
+    width: 50px;
+  }
+  .farmflex1 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .footer-links,
+  .logo-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .logo-container {
+    flex-direction: column;
+    padding: 4px 0 0;
+  }
+  .footer-links {
+    flex-direction: row;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-8xs);
+  }
+  .about-us,
+  .careers,
+  .company,
+  .contact1,
+  .team1 {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .company {
+    text-transform: uppercase;
+    min-width: 77px;
+  }
+  .about-us,
+  .careers,
+  .contact1,
+  .team1 {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .about-us {
+    text-decoration: none;
+    color: inherit;
+    min-width: 66px;
+  }
+  .careers,
+  .contact1,
+  .team1 {
+    min-width: 41px;
+  }
+  .careers,
+  .contact1 {
+    min-width: 55px;
+  }
+  .navigation-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs) 0 0;
+    gap: var(--gap-mini);
+  }
+  .icons8-facebook-30-1,
+  .icons8-instagram-30-1 {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    object-fit: cover;
+    min-height: 30px;
+    z-index: 1;
+  }
+  .social-media-icons {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .navigation-links {
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 43px;
+  }
+  .icons8-linkedin-30-1 {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .features,
+  .how-it-works,
+  .invest,
+  .pricing {
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 53px;
+    z-index: 1;
+  }
+  .features,
+  .how-it-works,
+  .pricing {
+    text-transform: capitalize;
+    font-weight: 600;
+    min-width: 65px;
+  }
+  .how-it-works,
+  .pricing {
+    min-width: 97px;
+  }
+  .pricing {
+    min-width: 47px;
+  }
+  .pricing-link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+  }
+  .login {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 38px;
+    z-index: 1;
+  }
+  .action-links {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+  }
+  .icons8-twitter-30-1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .footer-navigation,
+  .invest-parent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .invest-parent {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-54xl) var(--padding-11xs);
+    position: relative;
+    gap: var(--gap-mini);
+  }
+  .footer-navigation {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 25px;
+    font-size: var(--font-size-sm);
+  }
+  .footer-info-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 264px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 41px;
+    font-size: var(--font-size-16xl);
+  }
+  .frame-child3 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-white);
+    display: none;
+  }
+  .blog-farmflex,
+  .write-email-to {
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+  }
+  .blog-farmflex {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .write-email-to {
+    font-weight: 600;
+    display: inline-block;
+    min-width: 119px;
+  }
+  .contact-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-sm) 0 var(--padding-smi);
+  }
+  .infofarmflexcom {
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .contact-items1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-smi);
+  }
+  .frame-child4 {
+    height: 35px;
+    width: 121px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-midnightblue);
+    display: none;
+  }
+  .icons8-user-48-11 {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    object-fit: cover;
+    min-height: 18px;
+    z-index: 1;
+  }
+  .sign-up2 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    font-family: var(--font-open-sans);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 44.4px;
+    z-index: 1;
+  }
+  .group-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) var(--padding-lgi) var(--padding-5xs)
+      var(--padding-xl);
+    background-color: var(--color-midnightblue);
+    border-radius: var(--br-81xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 19.5px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .frame-wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-smi) 0 12px;
+  }
+  .contact-info1,
+  .frame-wrapper,
+  .rectangle-parent1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-parent1 {
+    border-radius: var(--br-31xl);
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: var(--padding-8xl) var(--padding-8xl) 28px;
+    gap: var(--gap-mini);
+    z-index: 1;
+  }
+  .contact-info1 {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-xl);
+    padding-left: 530px;
+  }
+  .copyright-2024farmflex-pvt {
+    position: relative;
+    font-weight: 600;
+    color: var(--color-white);
+    z-index: 1;
+    padding-left: 510px;
+  }
+  .contact-info-parent {
+    position: absolute;
+    top: 72px;
+    left: 634px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    color: var(--color-midnightblue);
+  }
+  .legal,
+  .privacy,
+  .security,
+  .terms {
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+  }
+  .legal {
+    display: inline-block;
+    min-width: 44px;
+  }
+  .privacy,
+  .security,
+  .terms {
+    font-weight: 600;
+  }
+  .privacy {
+    text-decoration: none;
+    align-self: stretch;
+    color: inherit;
+  }
+  .security,
+  .terms {
+    display: inline-block;
+    min-width: 47px;
+  }
+  .security {
+    min-width: 59px;
+  }
+  .legal-parent,
+  .security-link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .security-link {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-11xs);
+  }
+  .legal-parent {
+    position: absolute;
+    top: 93px;
+    left: 354px;
+    width: 61px;
+    flex-direction: column;
+    gap: var(--gap-mini);
+  }
+  .footer-info {
+    position: absolute;
+    top: 43px;
+    left: 73px;
+    width: 854px;
+    height: 321px;
+  }
+  .group-footer {
+    align-self: stretch;
+    height: 407px;
+    position: relative;
+    background-color: var(--color-midnightblue);
+    z-index: 1;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
+    font-family: var(--font-open-sans);
+  }
+  .desktop-5,
+  .image-1-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .image-1-parent {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-27xl) 0 43px;
+    box-sizing: border-box;
+    gap: 79.9px;
+    background-image: url(./public/group-49@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-gray-100);
+    font-family: var(--font-open-sans);
+  }
+  .desktop-5 {
+    width: 100%;
+    height: 3541px;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: row;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 825px) {
+    .investor-quotes1,
+    .investor-quotes2 {
+      flex: 1;
+    }
+    .testimonial {
+      flex-wrap: wrap;
+    }
+    .group-div {
+      gap: var(--gap-mini);
+      padding-left: var(--padding-15xl);
+      padding-right: var(--padding-15xl);
+      box-sizing: border-box;
+    }
+    .farmflex1 {
+      font-size: var(--font-size-9xl);
+    }
+    .desktop-5 {
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .contact-links {
+      display: none;
+    }
+    .contact-info {
+      width: 10px;
+    }
+    .approach,
+    .chances,
+    .chances1,
+    .connection,
+    .invest-background-wrapper,
+    .investment {
+      padding-left: var(--padding-17xl);
+      padding-right: var(--padding-17xl);
+      box-sizing: border-box;
+    }
+    .functionality-description {
+      padding-left: 23px;
+      padding-right: var(--padding-5xl);
+      box-sizing: border-box;
+    }
+    .reservation {
+      flex-wrap: wrap;
+    }
+    .innovation,
+    .investors {
+      padding-left: var(--padding-17xl);
+      padding-right: var(--padding-17xl);
+      box-sizing: border-box;
+    }
+    .innovation {
+      padding-left: var(--padding-16xl);
+      padding-right: var(--padding-16xl);
+    }
+    .image-1-parent {
+      gap: 40px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .discover-a-novel-container,
+    .emerging-chances {
+      font-size: var(--font-size-3xl);
+    }
+    .double-farmer-icon {
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .connection-options {
+      flex-wrap: wrap;
+    }
+    .impact-option {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .social-impact {
+      flex-wrap: wrap;
+    }
+    .production-connection {
+      gap: var(--gap-9xl);
+    }
+    .invest-at-your {
+      font-size: var(--font-size-3xl);
+    }
+    .long-term-growth-investment-container,
+    .quick-profit-investment-container {
+      font-size: var(--font-size-lgi);
+    }
+    .investment-options {
+      gap: var(--gap-9xl);
+    }
+    .explanation-of-its {
+      font-size: var(--font-size-3xl);
+    }
+    .supply-chain {
+      padding-top: var(--padding-8xl);
+      padding-bottom: var(--padding-8xl);
+      box-sizing: border-box;
+    }
+    .investors-seem-to-container {
+      font-size: var(--font-size-3xl);
+    }
+    .discussion {
+      padding-left: var(--padding-17xl);
+      padding-right: var(--padding-17xl);
+      box-sizing: border-box;
+    }
+    .investor-quotes1,
+    .investor-quotes2 {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .testimonial {
+      gap: 16px;
+    }
+    .the-future-of {
+      font-size: var(--font-size-3xl);
+    }
+    .farmflex1 {
+      font-size: 21px;
+    }
+    .blog-farmflex {
+      font-size: var(--font-size-base);
+    }
+    .image-1-parent {
+      gap: var(--gap-xl);
+    }
+  }
